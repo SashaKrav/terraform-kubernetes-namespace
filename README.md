@@ -4,5 +4,14 @@
 ```
 module namespace {
     sourse = "SashaKrav/namespace/kubernetes"
+    name = "testns"
+    annotations = {
+        new = "application"
+    }
+    labels = {
+        createdby = "SashaKrav"
+    }
+  
 }
+
 ```
