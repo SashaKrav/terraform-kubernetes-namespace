@@ -5,6 +5,7 @@ resource "kubernetes_namespace" "example" {
     labels = var.labels
   }
 }
+
 resource "kubernetes_resource_quota" "example" {
   metadata {
     name = "pod-quota"
